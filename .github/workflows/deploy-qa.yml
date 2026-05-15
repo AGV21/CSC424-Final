@@ -45,6 +45,6 @@ jobs:
           username: ${{ secrets.QA_USER }}
           key: ${{ secrets.QA_SSH_KEY }}
           script: |
-            cd ~/deploy
+            cd ~/csc424-final-exam
             docker compose pull
             docker compose up -d
